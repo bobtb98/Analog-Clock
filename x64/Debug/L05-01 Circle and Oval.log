@@ -1,0 +1,33 @@
+﻿  Source.cpp
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(22,36): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(22,36): warning C4302: 'type cast': truncation from 'void *' to 'int'
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(39,1): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(47,1): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(264,39): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(278,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(281,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(284,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(287,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(290,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(293,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(296,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(299,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(302,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(305,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(308,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(311,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(314,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(317,8): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(321,22): warning C4244: '=': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(404,45): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(405,45): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(406,45): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(407,45): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(458,54): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(458,54): warning C4302: 'type cast': truncation from 'void *' to 'int'
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(459,54): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(459,54): warning C4302: 'type cast': truncation from 'void *' to 'int'
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(460,68): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(460,68): warning C4302: 'type cast': truncation from 'void *' to 'int'
+C:\Users\E\Desktop\L05-01 Circle and Oval\Source.cpp(468,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  L05-01 Circle and Oval.vcxproj -> C:\Users\E\Desktop\L05-01 Circle and Oval\x64\Debug\L05-01 Circle and Oval.exe
