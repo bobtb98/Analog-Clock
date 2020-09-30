@@ -265,6 +265,7 @@ void init(void)
 
 }
 
+
 void drawMinuteHand(void)
 {
 	glUseProgram(program);
@@ -296,6 +297,75 @@ void drawHourHand(void)
 	glDrawArrays(GL_TRIANGLES, 3, 3);
 }
 
+void timePointing (void)
+{
+	GLfloat hour;
+	GLfloat min;
+	int hourTime;
+	time_t now = time(0);
+	tm ltm;
+	localtime_s(&ltm, &now);
+
+	hourTime = ltm.tm_hour;
+
+	switch (hourTime)
+	{
+	case 13: 
+		hour == 1;
+
+	case 14:
+		hour == 2;
+
+	case 15:
+		hour == 3;
+	
+	case 16:
+		hour == 4;
+	
+	case 17:
+		hour == 5;
+
+	case 18:
+		hour == 6;
+
+	case 19:
+		hour == 7;
+
+	case 20:
+		hour == 8;
+
+	case 21:
+		hour == 9;
+
+	case 22:
+		hour == 10;
+
+	case 23:
+		hour == 11;
+
+	case 24:
+		hour == 0;
+
+	case 0:
+		hour == 0;
+
+	default: 
+		hour == hour;
+	}
+
+	//test 
+	hour = (ltm.tm_hour * 30); // hour
+	
+	min = (ltm.tm_min * 6)*-1.0f; // minute
+	
+	MinuteHand = min;
+	HourHand = hour;
+	
+	//x = (ltm.tm_hour * 30)*-1.0f; // hour
+	//HourHand = (GLfloat)x;
+		//y = (ltm.tm_min * 6)*-1.0f; // minute
+	//MinuteHand = (GLfloat) y;
+}
 void drawFrame(void)
 {
 	glUseProgram(program);
@@ -356,6 +426,8 @@ void display(void)
 	drawHourHand();
 
 	drawMinuteHand();
+
+	timePointing();
 
 	//drawMarker();
 
